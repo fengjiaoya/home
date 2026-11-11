@@ -180,10 +180,10 @@
                 </ul>
             </li>
         </ul>
-
+        <h3 style="font-size:14px;font-weight:500;color:var(--muted);margin:1.2rem 0 .4rem;">Central China Normal University</h3>
         <ul class="course-outer">
             <li>
-                Modern Educational Technology
+                Modern Educational Technology <span style="color:var(--muted);">(Teaching Fellow)</span>
                 <ul class="course-inner">
                     <li>Spring 2022</li>
                 </ul>
@@ -194,13 +194,25 @@
                     <li>Fall 2021</li>
                 </ul>
             </li>
+            <li>
+                Database Systems
+                <ul class="course-inner">
+                    <li>Fall 2021</li>
+                </ul>
+            </li>
         </ul>
     </section>
 
 </main>
 
 <footer>
-    <p>Fengjiao Tu · University of North Texas · <a href="mailto:fengjiao@unt.edu">fengjiao@unt.edu</a></p>
+    <p>Fengjiao Tu · University of North Texas · <a href="mailto:fengjiaotu@my.unt.edu">fengjiaotu@my.unt.edu</a></p>
     <p style="margin-top:.3rem;"><a href="#">↑ Back to top</a></p>
 </footer>
-<script data-cfasync="false" src
+<script>
+    document.getElementById('navToggle').addEventListener('click', function () {
+        document.getElementById('navLinks').classList.toggle('open');
+    });
+</script>
+</body>
+</html>
